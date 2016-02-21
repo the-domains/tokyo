@@ -1,14 +1,26 @@
-layout_spectrum: 1
-typography_spectrum: 0.2043011
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  saturation: 1
-  lightness: 0.3691756
+  saturation: 0
   brandStrength: 0
-  rhythmicContrast: 0.9712167
+  lightness: 0.9587814
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#060402'
+    - '#FCFCCF'
+    - '#1F5C6E'
+    - '#6EE9E0'
+    - '#FF6542'
+  rhythmicContrast: 0.9175627
+typography_spectrum: 0.9121864
+layout_spectrum: 1
 name: Tokyo
